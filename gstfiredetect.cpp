@@ -50,7 +50,7 @@
  * ## Example launch line
  *
  * |[
- * gst-launch-1.0 videotestsrc pattern=18 ! videorate ! videoscale ! video/x-raw,width=320,height=240,framerate=5/1 ! videoconvert ! motioncells ! videoconvert ! xvimagesink
+ * gst-launch-1.0 videotestsrc pattern=18 ! videorate ! videoscale ! video/x-raw,width=320,height=240,framerate=5/1 ! videoconvert ! firedetect ! videoconvert ! xvimagesink
  * ]|
  */
 
